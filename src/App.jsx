@@ -192,12 +192,12 @@ const shuffle = (array) => {
 const setMenuItems = [
     { id: 26, name: '시그니처 한우 버거 세트', price: 9000, emoji: '🍔🍟🥤', desc: '한우 패티 시그니처', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
     { id: 27, name: '매콤 치킨 버거 세트', price: 9500, emoji: '🍔🍟🥤', desc: '매콤한 통살 치킨', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
-    { id: 28, name: '클래식 비프 버거 세트', price: 11000, emoji: '🍔🍟🥤', desc: '옛날식 수제 패티', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
-    { id: 29, name: '더블 패티 버거 세트', price: 11500, emoji: '🍔🍟🥤', desc: '패티 2장, 볼륨 만점', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
+    { id: 28, name: '클래식 비프 버거 세트', price: 8800, emoji: '🍔🍟🥤', desc: '옛날식 수제 패티', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
+    { id: 29, name: '더블 패티 버거 세트', price: 9400, emoji: '🍔🍟🥤', desc: '패티 2장, 볼륨 만점', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
     { id: 30, name: '어린이 행복 세트', price: 4800, emoji: '🎁', desc: '장난감 포함 어린이용', isSet: true, components: { side: '해시 포테이토', drink: '저지방 우유' } },
     { id: 31, name: '불고기 특선 버거 세트', price: 8000, emoji: '🍔🍟🥤', desc: '달콤한 불고기 맛', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
     { id: 32, name: '통새우 버거 세트', price: 9200, emoji: '🍤🍟🥤', desc: '바삭한 통새우 패티', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
-    { id: 33, name: '트리플 치즈 버거 세트', price: 10500, emoji: '🧀🍟🥤', desc: '치즈 3장, 풍부한 맛', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
+    { id: 33, name: '트리플 치즈 버거 세트', price: 9900, emoji: '🧀🍟🥤', desc: '치즈 3장, 풍부한 맛', isSet: true, components: { side: '웨지 감자(M)', drink: '탄산음료(M)' } },
     { id: 34, name: '아침 콤보 버거 세트', price: 5500, emoji: '🍳🥤', desc: '에그 머핀과 커피', isSet: true, components: { side: '해시 포테이토', drink: '아이스 블랙커피' } },
 ];
 
