@@ -1686,11 +1686,11 @@ const App = () => {
             </div>
 
             <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 sm:p-6 mb-8">
-              <h3 className="text-xl sm:text-2xl font-bold text-red-700 mb-4">🎓 학습 성과 요약</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-red-700 mb-4">🎓 학습 요약 -</h3>
               <ul className="text-left text-gray-700 space-y-3 text-base sm:text-lg list-none">
-                <li>✅ 다양한 고객 요구사항을 이해했습니다.</li>
-                <li>✅ 적절한 접근성 모드를 적용하는 연습을 했습니다.</li>
-                <li>✅ 키오스크 주문의 세부 과정을 숙지했습니다.</li>
+                <li>✅ 키오스크(무인 주문기)의 사용방법을 이해했습니다.</li>
+                <li>✅ 지능정보화 시대에서 일어나는 문제점을 알았습니다.</li>
+                <li>✅ 고령화로 인한 디지털 소외를 해결하는 자세를 알았습니다.</li>
               </ul>
             </div>
 
