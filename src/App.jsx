@@ -988,7 +988,7 @@ const App = () => {
               <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">🎮 게임 방법 및 흐름</h2>
               <ul className="text-left text-gray-700 space-y-3 text-base sm:text-lg list-none">
                 <li><span className="text-red-600 font-semibold">1. 모드 선택:</span> 고객에 맞는 접근성 모드와 식사 장소를 선택합니다.</li>
-                <li><span className="text-red-600 font-semibold">2. 메뉴 선택:</span> 미션에 맞는 메뉴를 장바구니에 담습니다. (AI 분석 활용 가능)</li>
+                <li><span className="text-red-600 font-semibold">2. 메뉴 선택:</span> 미션에 맞는 메뉴를 장바구니에 담습니다.</li>
                 {/* '선택' 글씨 강조 제거 */}
                 <li><span className="text-red-600 font-semibold">3. 결제:</span> 업그레이드, 할인, 카드/모바일 선택 후 최종 결제합니다.</li>
                 <li><span className="text-red-600 font-semibold">4. 수령:</span> 점수와 함께 주문번호를 확인합니다.</li>
@@ -1230,19 +1230,11 @@ const App = () => {
         {/* 메인 콘텐츠 영역 */}
         <div className="max-w-7xl mx-auto p-3 sm:p-4">
           
-          {/* 미션 및 AI 분석 */}
+          {/* 미션 */}
           <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-4">
-              <div className="flex items-center justify-between mb-4">
+              <div className="mb-4">
                 {/* 손님 호칭 '님' 제거 반영 */}
                 <h2 className="text-xl font-bold text-gray-800">미션: {level.customer}의 주문</h2>
-                <button
-                    onClick={fetchAccessibilityCritique}
-                    disabled={isCritiquing}
-                    className="flex items-center text-sm bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded-full disabled:bg-gray-400 transition"
-                >
-                    <Bot className="w-4 h-4 mr-1" />
-                    {isCritiquing ? '분석 중...' : '✨ AI 분석'}
-                </button>
               </div>
               <div className="bg-yellow-50 border border-yellow-400 rounded-lg p-3 text-sm">
                   {level.requirement}
